@@ -1,12 +1,15 @@
+* {
+    box-sizing: border-box;
+
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 #product-overview {
     background: #ff1b68;
-    padding: 20px;
-    border: 5px black solid;
-    margin: 20px;
+    width: 50%;
+    height: 528px
 }
 
 h1 {
