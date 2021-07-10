@@ -30,3 +30,17 @@ h1 {
     background:green;
     padding: 8px 16px;
 }
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 54px);
+}
+
+.main-header > div {
+    display:inline-block;
+}
