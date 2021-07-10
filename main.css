@@ -45,14 +45,14 @@ h1 {
 .main-nav__item a {
     text-decoration: none;
     color: #034f1f;
+    font-weight: bold;
+    padding: 3px 0;
 }
 
-.main-nav__item a:hover {
-    color: white;
-}
-
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
+    border-bottom: 3px solid;
 }
 
 .main-nav {
