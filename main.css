@@ -39,6 +39,20 @@ h1 {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #034f1f;
+}
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a:active {
+    color: white;
 }
 
 .main-nav {
@@ -51,5 +65,4 @@ h1 {
 .main-header > div {
     display:inline-block;
     vertical-align: middle;
-
 }
