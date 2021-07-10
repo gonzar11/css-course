@@ -31,6 +31,12 @@ h1 {
     padding: 8px 16px;
 }
 
+.main-header__brand {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .main-nav__item {
     display: inline-block;
 }
@@ -38,9 +44,12 @@ h1 {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 54px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
 .main-header > div {
     display:inline-block;
+    vertical-align: middle;
+
 }
