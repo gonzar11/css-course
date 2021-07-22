@@ -39,6 +39,15 @@ main {
 
 #free {
   background: rgba(234,252, 237, 0.95);
+  float: right;
+  text-align: right;
+  border-right: none;
+  border-left: 4px black solid;
+}
+
+#free:hover,
+#free:active {
+  border-left-color: red;
 }
 
 #premium {
@@ -47,4 +56,8 @@ main {
 
 #premium .package__title {
   color: white;
+}
+
+.clearfix {
+  clear: both;
 }
