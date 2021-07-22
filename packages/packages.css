@@ -1,0 +1,50 @@
+main {
+  padding-top: 32px;
+}
+
+.package {
+  border: 4px black solid;
+  border-left: none;
+  margin: 16px 0;
+  width: 80%;
+}
+
+.package:hover {
+  border-color: red;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package__subtitle {
+  color: #979797;
+}
+
+.package__description {
+  border: 1px black solid;
+  background: #f1eeee;
+  padding: 16px;
+  font-size: 20px;
+}
+
+
+
+#plus {
+  background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+  background: rgba(234,252, 237, 0.95);
+}
+
+#premium {
+  background: rgba(14, 79, 31,0.95)
+}
+
+#premium .package__title {
+  color: white;
+}
