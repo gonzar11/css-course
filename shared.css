@@ -33,6 +33,10 @@ body {
   width: 100%;
   background:green;
   padding: 8px 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .main-header__brand {
