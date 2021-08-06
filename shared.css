@@ -31,7 +31,7 @@ body {
 
 .main-header {
   width: 100%;
-  background:green;
+  background: #2ddf5c;
   padding: 8px 16px;
   position: fixed;
   top: 0;
@@ -43,6 +43,18 @@ body {
   text-decoration: none;
   font-size: 22px;
   font-weight: bold;
+  display: inline-block;
+  width: 22px;
+}
+
+.main-header__brand img {
+  width: 100%;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main-nav__item {
